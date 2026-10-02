@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Information Technology</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        nav a:hover {
+            color: orange;
+        }
+
+        main {
+            width: 85%;
+            margin: auto;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px 0;
+            padding: 25px;
+            border-radius: 8px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 700px;
+            display: block;
+            margin: auto;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #222;
+            color: white;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, textarea {
+            padding: 10px;
+            margin: 8px 0 15px;
+        }
+
+        button {
+            padding: 12px;
+            background-color: #222;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Department of Information Technology</h1>
+        <p>Welcome to the Department of Information Technology</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HOME SECTION -->
+        <section id="home">
+            <h2>About the Department</h2>
+
+            <p>
+                The Department of Information Technology provides students
+                with knowledge and practical skills in computer technology,
+                software development, networking, databases and information
+                systems. The department prepares students for careers in the
+                rapidly growing field of Information Technology.
+            </p>
+
+            <h2>Our IT Laboratory</h2>
+
+            <!-- PUT YOUR IT LAB IMAGE HERE -->
+            <img src="Lab.jpg.jpeg" alt="Information Technology Laboratory">
+        </section>
+
+        <!-- COURSES SECTION -->
+        <section id="courses">
+            <h2>Our Courses</h2>
+
+            <p>
+                The department offers various courses designed to develop
+                students' technical and professional skills.
+            </p>
+
+            <h3>Course List</h3>
+
+            <ul>
+                <li>Web Development</li>
+                <li>Database Management</li>
+                <li>Computer Networks</li>
+                <li>Programming</li>
+            </ul>
+
+            <h3>Course Codes and Names</h3>
+
+            <table>
+                <tr>
+                    <th>Course Code</th>
+                    <th>Course Name</th>
+                </tr>
+
+                <tr>
+                    <td>CIT 101</td>
+                    <td>Introduction to Information Technology</td>
+                </tr>
+
+                <tr>
+                    <td>CPP 501</td>
+                    <td>Web Development</td>
+                </tr>
+
+                <tr>
+                    <td>CIT 202</td>
+                    <td>Database Management</td>
+                </tr>
+
+                <tr>
+                    <td>CIT 203</td>
+                    <td>Computer Networks</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+
+            <p>
+                If you have any questions or enquiries, please fill in
+                the form below.
+            </p>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"
+                          rows="6"
+                          placeholder="Enter your message"></textarea>
+
+                <button type="submit">Submit Enquiry</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Department of Information Technology</p>
+        <p>All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
